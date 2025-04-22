@@ -1,0 +1,52 @@
+body{
+  height: 3000px;
+} 
+
+.divA{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: fixed;
+  background-color: rgba(0,0,0,0.8);
+  border-style: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right:0;
+  z-index: 1000;
+
+}
+
+.diva{
+  position: fixed;
+  color: white;
+  top: 0;
+  background-color: green;
+  right: 0;
+  width: 100px;
+  bottom: 0;
+  z-index: 0;
+  
+}
+
+.divC{position: fixed;
+  width: 350px;
+  height: 130px;
+  background-color: beige;
+  border-style: solid;
+  margin-left: 80px;
+  border-width: 1px;
+  border-color: rgb(96,96,96);
+  border-radius: 6px;
+}
+.divD{
+  
+  margin-left: 15px;
+}
+
+.A{
+  font-size: 20px;
+  font-weight: 600;
+
+}
